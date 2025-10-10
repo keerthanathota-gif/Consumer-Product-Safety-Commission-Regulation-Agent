@@ -1,0 +1,41 @@
+# Enterprise Redundancy Analyzer - Dependencies
+# ================================================
+
+# Core dependencies
+numpy>=1.21.0
+scikit-learn>=1.0.0
+lxml>=4.9.0
+
+# Database
+sqlite3  # Built-in with Python
+
+# Advanced NLP and Semantic Analysis
+sentence-transformers>=2.2.2  # Transformer-based embeddings (Sentence-BERT)
+torch>=2.0.0  # Required by sentence-transformers
+transformers>=4.30.0  # Hugging Face transformers
+
+# Text processing and analysis
+nltk>=3.8.0  # Natural language processing toolkit
+textstat>=0.7.3  # Readability metrics
+
+# Data visualization (optional but recommended)
+matplotlib>=3.5.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Progress tracking
+tqdm>=4.65.0
+
+# Performance optimization (optional)
+# faiss-cpu>=1.7.4  # For very large datasets (100k+ sections)
+
+# Development and testing
+pytest>=7.3.0
+pytest-cov>=4.1.0
+
+# Report generation
+pandas>=1.5.0  # For data analysis
+openpyxl>=3.1.0  # Excel export support
+
+# Logging and monitoring
+colorama>=0.4.6  # Colored terminal output
