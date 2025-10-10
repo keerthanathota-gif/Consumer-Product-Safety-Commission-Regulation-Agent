@@ -23,6 +23,9 @@ matplotlib>=3.5.0
 seaborn>=0.12.0
 plotly>=5.14.0
 
+# Interactive Dashboard
+streamlit>=1.28.0  # Professional interactive dashboard framework
+
 # Progress tracking
 tqdm>=4.65.0
 
