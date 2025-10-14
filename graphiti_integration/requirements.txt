@@ -1,0 +1,29 @@
+# Graphiti Integration Requirements
+# =================================
+
+# Core Graphiti dependencies
+graphiti-core>=0.22.0
+neo4j>=5.26.0
+pydantic>=2.11.5
+diskcache>=5.6.3
+openai>=1.91.0
+tenacity>=9.0.0
+numpy>=1.0.0
+python-dotenv>=1.0.1
+
+# Optional Graphiti dependencies for enhanced functionality
+sentence-transformers>=3.2.1
+anthropic>=0.49.0
+
+# Visualization and dashboard
+streamlit>=1.28.0
+plotly>=5.14.0
+networkx>=3.0
+pyvis>=0.3.2
+
+# Data processing
+pandas>=1.5.0
+# sqlite3 is built-in with Python
+
+# Existing project dependencies (for integration)
+scikit-learn>=1.0.0
